@@ -17,7 +17,7 @@
 <br>
 
 
-<a href="https://mpaullos.github.io/tindog/" _blank><img src="https://user-images.githubusercontent.com/82289818/205789643-9cf82fda-ad0a-4f06-aae5-2a483dc60968.png" alt="Tindog" /> <a/>
+<a href="https://mpaullos.github.io/tindog/" target="_blank"><img src="https://user-images.githubusercontent.com/82289818/205789643-9cf82fda-ad0a-4f06-aae5-2a483dc60968.png" alt="Tindog" /> <a/>
 
 
 
