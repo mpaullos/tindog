@@ -3,7 +3,9 @@ body {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Montserrat", cursive;
   font-weight: 900;
 }
@@ -33,14 +35,27 @@ p {
 
 /* Sections */
 
-.colored-section {
-  background-color: #ff4c68;
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
   color: white;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .white-section {
   background-color: #fff;
-
 }
 
 /* Navigation Bar */
@@ -116,24 +131,23 @@ p {
 }
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 20%;
   border-radius: 50%;
   margin: 20px;
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #ffffff;
   padding-bottom: 3%;
 }
 
 .press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+  margin: 20px 20px 20px;
 }
 
 /* Princing Section */
@@ -150,7 +164,6 @@ p {
   padding: 3% 2%;
 }
 
-
 /* Footer */
 
 .social-icon {
@@ -166,9 +179,8 @@ p {
     position: static;
     transform: rotate(0deg);
   }
-  .testimonial-text  {
-    
-    font-size: 25px;
+  .testimonial-text {
+    font-size: 22px;
   }
 
   .section-heading {
@@ -178,7 +190,6 @@ p {
   .big-heading {
     font-size: 45px;
   }
-  
 }
 .cta-heading {
   font-size: 3.5rem;
